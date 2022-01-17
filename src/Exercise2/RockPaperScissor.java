@@ -26,7 +26,7 @@ public class RockPaperScissor {
 			break;
 		}
 		
-		Random pc = new Random();
+		Random pc= new Random();
 		int randomValue = pc.nextInt(3);
 		System.out.println("System Generated");
 		System.out.println(randomValue);
